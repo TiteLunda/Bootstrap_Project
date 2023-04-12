@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(244, 245, 247, 1);
+}
+
 .nav2 {
   background-color: white;
 }
@@ -11,7 +15,7 @@
 .logo {
   color: #6070ff;
   margin-left: 20px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .itemcolor {
@@ -20,16 +24,17 @@
 
 h1 {
   font-size: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 920px;
   height: 122px;
   font-weight: 700;
   color: #091e42;
+  margin-top: 10%;
 }
 
 h3 {
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -39,19 +44,21 @@ h3 {
 
 p {
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 920px;
 }
 
 .main-text {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 #headline {
-  height: auto;
+  height: 100vh;
   background-image: url(./images/Header\ bg@2x.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
 }
 
 .socialIcons {
@@ -63,4 +70,77 @@ p {
 
 .icon {
   margin-right: 20px;
+}
+
+/* .works-section {
+  
+} */
+
+.works-section-2,
+.works-section-3,
+.works-section-4,
+.works-section-1 {
+  height: 496px;
+  width: 1156px;
+  left: 0px;
+  margin-top: 100px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.work-section1-h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #091e42;
+}
+
+.work-section1-text {
+  width: 496px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.radio-btn-canopy1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: -5%;
+  height: 24px;
+  color: #344563;
+}
+
+.radio-btn-2015-1,
+.radio-btn-back-end1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6b778c;
+}
+
+.btn1 {
+  background: rgba(235, 235, 255, 1);
+  color: #6070ff;
+  height: 40px;
+  border: none;
+}
+
+.work-sect1-btn {
+  display: block;
+  margin-top: 16px;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  border: none;
 }

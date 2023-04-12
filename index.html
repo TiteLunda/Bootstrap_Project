@@ -1,46 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrat Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light   nav2">
-        <a class="navbar-brand logo" href="#">MyLogo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navPosition collapse navbar-collapse " id="navbarNavAltMarkup"  >
-          <div class="navbar-nav navPosition" >
-            <a class=" itemcolor nav-item nav-link active"  href="#">Portofolio</a>
-            <a class="nav-item nav-link active" href="#">About</a>
-            <a class="nav-item nav-link active" href="#">Contact</a> 
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top nav2">
+      <a class="navbar-brand logo" href="#">MyLogo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navPosition collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navPosition">
+          <a class="itemcolor nav-item nav-link active" href="#">Portofolio</a>
+          <a class="nav-item nav-link active" href="#">About</a>
+          <a class="nav-item nav-link active" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div id="headline">
+      <div class="container">
+        <div class="main-text">
+          <h1>
+            I’m Alexandra. <br />
+            Glad to see you!
+          </h1>
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
+          </p>
+          <h3>LET'S CONNECT</h3>
+        </div>
+        <ul class="socialIcons">
+          <li class="icon"><img src="./images/twitter.png" alt="twitter" /></li>
+          <li class="icon">
+            <img src="./images/Linkedin icon.png" alt="Linkedin" />
+          </li>
+          <li class="icon"><img src="./images/medium.png" alt="medium" /></li>
+          <li class="icon"><img src="./images/github.png" alt="github" /></li>
+          <li class="icon">
+            <img src="./images/angellist.png" alt="angellist" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ============Work Section begins here========== -->
+    <section class="works-section">
+      <!-- ============Work Section 1========== -->
+      <div class="works-section-1 row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body wrk">
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <img
+                src="./images/Snapshoot Portfolio 1.png"
+                class="img-thumbnail"
+                alt="snapshoot-Porfolio-1"
+              />
+            </div>
           </div>
         </div>
-      </nav>
-    <section id="headline">
-        <div class="container headline">
-            <div class="main-text">
-              <h1 >I’m Alexandra. <br>
-              Glad to see you!</h1>
-              <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-              <h3>LET'S CONNECT</h3>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title work-section1-h2">Tonic</h2>
+
+              <div class="form-check form-check-inline radio-btn-canopy1">
+                <label class="form-check-label" for="inlineRadio1"
+                  >CANOPY</label
+                >
+              </div>
+              <div class="form-check form-check-inline radio-btn-back-end1">
+                <label class="form-check-label" for="inlineRadio2"
+                  >Back End Dev</label
+                >
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+              </div>
+              <div class="form-check form-check-inline radio-btn-2015-1">
+                <label class="form-check-label" for="inlineRadio3">2015</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+              </div>
+              <p class="card-text work-section1-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >html</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >css</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >javaScript</a
+              >
+
+              <a href="#" class="work-sect1-btn"
+                ><button type="button" class="btn btn-outline-primary">
+                  See project
+                </button></a
+              >
             </div>
-            <ul class="socialIcons">
-                <li class="icon"><img src="./images/twitter.png" alt="twitter"></li>
-                <li class="icon"><img src="./images/Linkedin icon.png" alt="Linkedin"></li>
-                <li class="icon"><img src="./images/medium.png" alt="medium"></li>
-                <li class="icon"><img src="./images/github.png" alt="github"></li>
-                <li class="icon"><img src="./images/angellist.png" alt="angellist"></li>              
-            </ul>
-           
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== Work section 2======== -->
+      <div class="row works-section-2">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <h2 class="card-title work-section1-h2">Multi-post Stories</h2>
+
+              <div class="form-check form-check-inline radio-btn-canopy1">
+                <label class="form-check-label" for="inlineRadio1"
+                  >FACEBOOK</label
+                >
+              </div>
+              <div class="form-check form-check-inline radio-btn-back-end1">
+                <label class="form-check-label" for="inlineRadio2"
+                  >Full Stack Dev</label
+                >
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+              </div>
+              <div class="form-check form-check-inline radio-btn-2015-1">
+                <label class="form-check-label" for="inlineRadio3">2015</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+              </div>
+              <p class="card-text work-section1-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >html</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >css</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >javaScript</a
+              >
+
+              <a href="#" class="work-sect1-btn"
+                ><button type="button" class="btn btn-outline-primary">
+                  See project
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img
+                src="./images/Snapshoot Portfolio..2.png"
+                class="img-thumbnail"
+                alt="snapshoot-Porfolio-1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======= Work Section 3======= -->
+      <div class="row works-section-2">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+              <img
+                src="./images/Snapshoot Portfolio 2.png"
+                class="img-thumbnail"
+                alt="snapshoot-Porfolio-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title work-section1-h2">FACEBOOK 360</h2>
+
+              <div class="form-check form-check-inline radio-btn-canopy1">
+                <label class="form-check-label" for="inlineRadio1"
+                  >FACEBOOK</label
+                >
+              </div>
+              <div class="form-check form-check-inline radio-btn-back-end1">
+                <label class="form-check-label" for="inlineRadio2"
+                  >Full Stack Dev</label
+                >
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+              </div>
+              <div class="form-check form-check-inline radio-btn-2015-1">
+                <label class="form-check-label" for="inlineRadio3">2015</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+              </div>
+              <p class="card-text work-section1-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >html</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >css</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >javaScript</a
+              >
+
+              <a href="#" class="work-sect1-btn"
+                ><button type="button" class="btn btn-outline-primary">
+                  See project
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======== Work Section 4 ======== -->
+      <div class="row works-section-4">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <!-- <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <h2 class="card-title work-section1-h2">Uber Navigation</h2>
+
+              <div class="form-check form-check-inline radio-btn-canopy1">
+                <label class="form-check-label" for="inlineRadio1">Uber</label>
+              </div>
+              <div class="form-check form-check-inline radio-btn-back-end1">
+                <label class="form-check-label" for="inlineRadio2"
+                  >Lead Developer</label
+                >
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+              </div>
+              <div class="form-check form-check-inline radio-btn-2015-1">
+                <label class="form-check-label" for="inlineRadio3">2018</label>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+              </div>
+              <p class="card-text work-section1-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >html</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >css</a
+              >
+              <a
+                href="#"
+                class="btn btn-primary btn1"
+                role="button"
+                data-bs-toggle="button"
+                >javaScript</a
+              >
+
+              <a href="#" class="work-sect1-btn"
+                ><button type="button" class="btn btn-outline-primary">
+                  See project
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img
+                src="./images/Snapshoot Portfolio4.png"
+                class="img-thumbnail"
+                alt="snapshoot-Porfolio-1"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    
-</body>
+  </body>
 </html>
