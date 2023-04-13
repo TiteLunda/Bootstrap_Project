@@ -257,8 +257,14 @@ line {
   margin-right: -90%;
 }
 
+.contact-section {
+  margin-top: 10%;
+}
+
 .contact-sect {
-  background: url(./images/Header\ bg@2xcontact.png);
+  background: url(./images/form1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: rgba(96, 112, 255, 1);
   position: absolute;
   width: 100%;
@@ -280,6 +286,7 @@ line {
   justify-content: center;
   margin-left: 16%;
   margin-top: 8%;
+  color: #fff;
 }
 
 .contact-text {
