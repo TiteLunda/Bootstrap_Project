@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(244, 245, 247, 1);
+  width: 100%;
 }
 
 .nav2 {
@@ -42,6 +42,33 @@ h3 {
   color: #7f8cff;
 }
 
+h5 {
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  margin-top: 13%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+  margin-left: 7px;
+}
+
 p {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
@@ -57,7 +84,7 @@ p {
   background-image: url(./images/Header\ bg@2x.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
   margin-bottom: 40px;
 }
 
@@ -72,9 +99,9 @@ p {
   margin-right: 20px;
 }
 
-/* .works-section {
-  
-} */
+.works-section {
+  background-color: rgba(244, 245, 247, 1);
+}
 
 .works-section-2,
 .works-section-3,
@@ -82,7 +109,7 @@ p {
 .works-section-1 {
   height: 496px;
   width: 1156px;
-  left: 0px;
+  left: 0;
   margin-top: 100px;
   border-radius: 24px;
   background: #fff;
@@ -118,7 +145,7 @@ p {
 
 .radio-btn-2015-1,
 .radio-btn-back-end1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -143,4 +170,89 @@ p {
 
 .card-body {
   border: none;
+}
+
+/* About section */
+
+#about {
+  background-color: white;
+  border-top-right-radius: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text3 {
+  width: 447px;
+  height: 102px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 480px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1 {
+  margin-left: 10px;
+  width: 122px;
+  height: 100px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.languagesIcon {
+  margin: 5px 20px 10px 4px;
+}
+
+.SingleLanguage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.SingleLanguage img {
+  height: 24px;
+  margin-top: 13%;
+  margin-left: 70%;
+}
+
+line {
+  position: absolute;
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #dfe1e6;
+}
+
+.SingleLanguage1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: -8%;
+  margin-bottom: 0;
+}
+
+.SingleLanguage1 img {
+  height: 24px;
+  margin-top: 13%;
+  margin-left: 70%;
+}
+
+.arrow {
+  margin-right: -90%;
 }
